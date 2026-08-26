@@ -129,6 +129,8 @@ xdg-desktop-portal-xapp
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+zenity
+libnewt
 
 ################################################################################
 # DESKTOP APPLICATIONS — utilities, not bloat

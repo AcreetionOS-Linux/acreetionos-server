@@ -102,7 +102,7 @@ jobs:
             
             **Version**: ${{ env.ISO_VERSION }}
             **Build**: ${{ env.BUILD_ID }}
-            **Date**: $(date +%Y-%m-%d)
+            **Date**: ${{ github.event.schedule || github.run_started_at }}
             
             ### What is this?
             AcreetionOS Server is an auto-installing Arch Linux-based server ISO
